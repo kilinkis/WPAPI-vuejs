@@ -32,8 +32,10 @@
 					$description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>
 						<p class="site-description"><?php echo $description; ?></p>
-					<?php endif;
-				?>
+					<?php endif; ?>
+
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_vuejs.png" alt="vuejs logo">
+
 			</div><!-- .site-branding -->
 		</header><!-- .site-header -->
     </div><!-- .sidebar -->
